@@ -1,0 +1,17 @@
+# Scala / sbt generated files
+.bloop/
+.metals/
+target/
+project/target/
+project/project/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "group": 0,
+  "dataset": 0,
+  "distinction": "none",
+  "numericColumns": ["ColumnA", "ColumnB"],
+  "q1": { "entity": "EntityColumn", "metric": "ColumnA", "agg": "sum" },
+  "q2": { "group": "CategoryColumn", "value": "ColumnA" },
+  "q3": { "entity": "EntityColumn", "attr1": "ColumnA", "attr2": "ColumnB", "op": "<", "threshold": "mean" },
+  "q4": { "entity": "EntityColumn", "period": "PeriodColumn", "value": "ColumnA" }
+}
